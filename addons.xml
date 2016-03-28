@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="repository.gerrit" name="Gerrit's repo" version="1.0" provider-name="Budel">
+	<extension point="xbmc.addon.repository" name="Gerrit's Repository">
+		<info compressed="true">https://github.com/gerritvt/budel/addons.xml</info>
+		<checksum>https://github.com/gerritvt/budel/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/gerritvt/budel</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repository Budel update</summary>
+		<description>Download and install addons from Gerrit[CR]test</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
